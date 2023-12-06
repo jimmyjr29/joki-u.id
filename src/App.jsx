@@ -10,7 +10,7 @@ import PromoPage from "./pages/PromoPage";
 
 function App() {
   return (
-    <div>
+    <>
       <NavbarComp />
       <Routes>
         <Route path="/" Component={HomePage} />
@@ -20,7 +20,7 @@ function App() {
         <Route path="/promo" Component={PromoPage} />
       </Routes>
       <FooterComp />
-    </div>
+    </>
   );
 }
 

@@ -1,5 +1,7 @@
+import { Container, Row } from "react-bootstrap";
+
 const PaketPage = () => {
-  return <div>PaketPage</div>;
+  return <>Paket Page</>;
 };
 
 export default PaketPage;
