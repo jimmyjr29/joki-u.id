@@ -10,8 +10,8 @@ const FooterComp = () => {
   const whatsappLink = "https://wa.me/081949427807";
 
   return (
-    <footer className="mt-5 bg-gray-600">
-      <hr />
+    <footer className="border-top">
+      {/* <hr style={{ padding: "none" }} /> */}
       <Container className="pt-5">
         <Row className="justify-content-between">
           <Col lg={8} className="text-start">
