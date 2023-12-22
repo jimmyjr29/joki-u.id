@@ -8,6 +8,7 @@ import { GoGlobe } from "react-icons/go";
 const FooterComp = () => {
   const instagramLink = "https://www.instagram.com/joki.u.id";
   const whatsappLink = "https://wa.me/081949427807";
+  const websititeLink = "https://joki-u-id.com";
 
   return (
     <footer className="border-top">
@@ -45,7 +46,7 @@ const FooterComp = () => {
               </a>
             </div>
             <div>
-              <a href="/" className="text-dark text-decoration-none d-flex align-items-center">
+              <a href={websititeLink} className="text-dark text-decoration-none d-flex align-items-center">
                 <GoGlobe className="me-2 " />
                 <span>Website</span>
               </a>

@@ -4,6 +4,7 @@ const TutorPage = () => {
   return (
     <section>
       <Container className="Tutor">
+        <h1 className="text-center fw-bold mb-3">Bagaimana Cara Order?</h1>
         <Card className="border shadow ">
           <Row className="m-5 align-items-center ">
             <Col lg={6} className="text-center">

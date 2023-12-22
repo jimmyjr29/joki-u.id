@@ -12,13 +12,13 @@ const homepage = () => {
           <Row className="align-items-center pt-5 mt-5">
             {/* Bagian Teks di Sebelah Kiri */}
             <Col lg={6} md={12} className="text-left">
-              <p className="mb-0">Ketika tugas menumpuk dan deadline mendekat, jangan panik! Kami</p>
+              <p className="mb-0 display-6">Selamat datang</p>
               <h1 className="hero-text display-1 fw-bold mb-0">Di Joki'U.iD</h1>
               <p className="hero-subtext">
-                hadir sebagai penyelamat akademis Anda. Dengan tim berdedikasi yang siap menyongsong tantangan, kami menawarkan solusi terbaik untuk mengatasi tekanan waktu dan menghasilkan karya akademis yang gemilang. Mari bersama-sama
-                menghadapi tantangan dan menjadikan setiap batas waktu sebagai kesempatan baru untuk sukses. <span className="fw-bold"> Joki'U.iD</span> - Mitra Terpercaya di Setiap Perjalanan Akademis Anda!
+                Tempat terpercaya untuk membantu Anda menyelesaikan tugas akademis dan proyek kreatif. Kami menyediakan layanan joki dengan kualitas terbaik dan harga terjangkau untuk skripsi, tugas, presentasi, jurnal, artikel, makalah,
+                dan desain.
               </p>
-              <Button variant="primary" size="lg" className="me-2">
+              <Button variant="primary" size="lg" className="me-2" href="/paket">
                 Lihat Paket Joki
               </Button>
               <Button variant="outline-primary" size="lg" className="btn btn-outline" href="https://wa.me/081949427807">
@@ -32,13 +32,6 @@ const homepage = () => {
             </Col>
           </Row>
         </Container>
-        {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style={{ width: "100%", height: "auto", marginTop: "-100px" }}>
-          <path
-            fill="#0d6efd"
-            fillOpacity="1"
-            d="M0,64L60,58.7C120,53,240,43,360,53.3C480,64,600,96,720,138.7C840,181,960,235,1080,234.7C1200,235,1320,181,1380,154.7L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
-          ></path>
-        </svg> */}
       </section>
       {/* HERO END */}
 
@@ -101,13 +94,6 @@ const homepage = () => {
             </Button>
           </Col>
         </Container>
-        {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path
-            fill="#ffffff"
-            fill-opacity="10"
-            d="M0,96L60,85.3C120,75,240,53,360,42.7C480,32,600,32,720,58.7C840,85,960,139,1080,160C1200,181,1320,171,1380,165.3L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
-          ></path>
-        </svg> */}
       </section>
       {/* PAKET END */}
 
